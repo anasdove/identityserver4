@@ -17,4 +17,8 @@
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CADove.Shared\CADove.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

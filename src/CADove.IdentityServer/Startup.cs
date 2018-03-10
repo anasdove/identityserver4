@@ -12,6 +12,7 @@ namespace CADove.IdentityServer
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddIdentityServer() // Add Identity Server
+                .AddDeveloperSigningCredential()
                 .AddInMemoryApiResources(IdentityServerConfig.GetApiResources()) // Add the in memory API Resources
                 .AddInMemoryClients(IdentityServerConfig.GetClient()); // Add the in memory Clients
         }

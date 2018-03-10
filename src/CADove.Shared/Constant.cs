@@ -1,8 +1,11 @@
-﻿namespace CADove.WebApi
+﻿using System;
+
+namespace CADove.Shared
 {
     public static class Constant
     {
         public const string BASE_URI = "http://localhost:5005";
+        public const string API_BASE_URI = "http://localhost:5006/api/";
 
         public struct ApiResource
         {

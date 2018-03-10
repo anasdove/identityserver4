@@ -1,4 +1,5 @@
-﻿using IdentityServer4.Models;
+﻿using CADove.Shared;
+using IdentityServer4.Models;
 using System.Collections.Generic;
 
 namespace CADove.IdentityServer
