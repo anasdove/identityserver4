@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3C56AC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CADove.IdentityServer", "src\CADove.IdentityServer\CADove.IdentityServer.csproj", "{580DF53F-5A0C-4D52-9901-37BA1F70CEE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CADove.WebApi", "src\CADove.WebApi\CADove.WebApi.csproj", "{15FC5590-C852-48E1-8AAA-377DD6116BB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,12 +23,17 @@ Global
 		{580DF53F-5A0C-4D52-9901-37BA1F70CEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{580DF53F-5A0C-4D52-9901-37BA1F70CEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{580DF53F-5A0C-4D52-9901-37BA1F70CEE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15FC5590-C852-48E1-8AAA-377DD6116BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15FC5590-C852-48E1-8AAA-377DD6116BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15FC5590-C852-48E1-8AAA-377DD6116BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15FC5590-C852-48E1-8AAA-377DD6116BB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{580DF53F-5A0C-4D52-9901-37BA1F70CEE2} = {5BD9B891-6552-4598-BC90-62D670EF458B}
+		{15FC5590-C852-48E1-8AAA-377DD6116BB9} = {5BD9B891-6552-4598-BC90-62D670EF458B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EED2E442-5106-48D4-AD9C-E9767C416057}
