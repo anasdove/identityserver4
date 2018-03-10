@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5BD9B891-6552-4598-BC90-62D670EF458B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core.Specs", "Core.Specs", "{D783837E-FD65-4D1E-9DD9-CE379CEBEBBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3C56ACC8-1E6D-49BD-A897-EE3642B77E2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CADove.IdentityServer", "src\CADove.IdentityServer\CADove.IdentityServer.csproj", "{580DF53F-5A0C-4D52-9901-37BA1F70CEE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{580DF53F-5A0C-4D52-9901-37BA1F70CEE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580DF53F-5A0C-4D52-9901-37BA1F70CEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580DF53F-5A0C-4D52-9901-37BA1F70CEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580DF53F-5A0C-4D52-9901-37BA1F70CEE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{580DF53F-5A0C-4D52-9901-37BA1F70CEE2} = {5BD9B891-6552-4598-BC90-62D670EF458B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EED2E442-5106-48D4-AD9C-E9767C416057}
+	EndGlobalSection
+EndGlobal
