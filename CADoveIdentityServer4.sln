@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A3D8F28C-5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CADove.IdentityServer.Tests", "test\CADove.IdentityServer.Tests\CADove.IdentityServer.Tests.csproj", "{D67752C3-4D81-4D97-9E64-FBF5388D48B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CADove.WebApp", "src\CADove.WebApp\CADove.WebApp.csproj", "{CCB458AF-7C68-4351-8834-6D0AE3BFB02E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D67752C3-4D81-4D97-9E64-FBF5388D48B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D67752C3-4D81-4D97-9E64-FBF5388D48B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D67752C3-4D81-4D97-9E64-FBF5388D48B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCB458AF-7C68-4351-8834-6D0AE3BFB02E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB458AF-7C68-4351-8834-6D0AE3BFB02E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB458AF-7C68-4351-8834-6D0AE3BFB02E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB458AF-7C68-4351-8834-6D0AE3BFB02E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{15FC5590-C852-48E1-8AAA-377DD6116BB9} = {5BD9B891-6552-4598-BC90-62D670EF458B}
 		{801B0AF3-FB54-4128-8944-8463FFF5560D} = {5BD9B891-6552-4598-BC90-62D670EF458B}
 		{D67752C3-4D81-4D97-9E64-FBF5388D48B7} = {A3D8F28C-55A3-4C65-83DE-C21BF0D45E3D}
+		{CCB458AF-7C68-4351-8834-6D0AE3BFB02E} = {5BD9B891-6552-4598-BC90-62D670EF458B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EED2E442-5106-48D4-AD9C-E9767C416057}
