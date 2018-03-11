@@ -27,7 +27,7 @@ namespace CADove.WebApi
             services.AddAuthentication(IdentityServerAuthenticationDefaults.AuthenticationScheme)
                 .AddIdentityServerAuthentication(options =>
                 {
-                    options.Authority = Constant.BASE_URI;
+                    options.Authority = Constant.AUTH_BASE_URI;
                     options.RequireHttpsMetadata = false; // Set as FALSE for development only.
                     options.ApiName = Constant.ApiResource.SCOPE_NAME;
                 });

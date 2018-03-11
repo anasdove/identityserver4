@@ -15,7 +15,7 @@ namespace CADove.WebApi.Controllers
         public async Task<IActionResult> GetClientCredentialAsync()
         {
             // Discover endpoints from metadata.
-            DiscoveryResponse discoveryClient = await DiscoveryClient.GetAsync(Constant.BASE_URI);
+            DiscoveryResponse discoveryClient = await DiscoveryClient.GetAsync(Constant.AUTH_BASE_URI);
             if (discoveryClient.IsError)
             {
                 return new JsonResult(discoveryClient.Error);
@@ -33,7 +33,7 @@ namespace CADove.WebApi.Controllers
         public async Task<IActionResult> GetResourceOwnerPasswordAsync()
         {
             // Discover endpoints from metadata.
-            DiscoveryResponse discoveryClient = await DiscoveryClient.GetAsync(Constant.BASE_URI);
+            DiscoveryResponse discoveryClient = await DiscoveryClient.GetAsync(Constant.AUTH_BASE_URI);
             if (discoveryClient.IsError)
             {
                 return new JsonResult(discoveryClient.Error);

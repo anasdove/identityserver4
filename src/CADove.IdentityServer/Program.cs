@@ -13,7 +13,7 @@ namespace CADove.IdentityServer
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseUrls(Constant.BASE_URI) // The URLS the web host will listen on
+                .UseUrls(Constant.AUTH_BASE_URI) // The URLS the web host will listen on
                 .UseStartup<Startup>()
                 .Build();
     }
