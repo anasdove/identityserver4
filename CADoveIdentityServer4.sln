@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CADove.WebApi", "src\CADove
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CADove.Client", "src\CADove.Client\CADove.Client.csproj", "{4D9661A7-A4A7-49AA-BDE4-4DE5EEE3C3FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CADove.Shared", "src\CADove.Shared\CADove.Shared.csproj", "{801B0AF3-FB54-4128-8944-8463FFF5560D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CADove.Shared", "src\CADove.Shared\CADove.Shared.csproj", "{801B0AF3-FB54-4128-8944-8463FFF5560D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A3D8F28C-55A3-4C65-83DE-C21BF0D45E3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CADove.IdentityServer.Tests", "test\CADove.IdentityServer.Tests\CADove.IdentityServer.Tests.csproj", "{D67752C3-4D81-4D97-9E64-FBF5388D48B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +41,10 @@ Global
 		{801B0AF3-FB54-4128-8944-8463FFF5560D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{801B0AF3-FB54-4128-8944-8463FFF5560D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{801B0AF3-FB54-4128-8944-8463FFF5560D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D67752C3-4D81-4D97-9E64-FBF5388D48B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67752C3-4D81-4D97-9E64-FBF5388D48B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67752C3-4D81-4D97-9E64-FBF5388D48B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67752C3-4D81-4D97-9E64-FBF5388D48B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +54,7 @@ Global
 		{15FC5590-C852-48E1-8AAA-377DD6116BB9} = {5BD9B891-6552-4598-BC90-62D670EF458B}
 		{4D9661A7-A4A7-49AA-BDE4-4DE5EEE3C3FE} = {5BD9B891-6552-4598-BC90-62D670EF458B}
 		{801B0AF3-FB54-4128-8944-8463FFF5560D} = {5BD9B891-6552-4598-BC90-62D670EF458B}
+		{D67752C3-4D81-4D97-9E64-FBF5388D48B7} = {A3D8F28C-55A3-4C65-83DE-C21BF0D45E3D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EED2E442-5106-48D4-AD9C-E9767C416057}
