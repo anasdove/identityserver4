@@ -29,7 +29,7 @@ namespace CADove.WebApi
                 {
                     options.Authority = Constant.BASE_URI;
                     options.RequireHttpsMetadata = false; // Set as FALSE for development only.
-                    options.ApiName = Constant.ApiResource.NAME;
+                    options.ApiName = Constant.ApiResource.SCOPE_NAME;
                 });
         }
 

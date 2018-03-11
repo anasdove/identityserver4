@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using System.Linq;
 
 namespace CADove.IdentityServer
 {
@@ -14,7 +15,8 @@ namespace CADove.IdentityServer
             services.AddIdentityServer() // Add Identity Server
                 .AddDeveloperSigningCredential()
                 .AddInMemoryApiResources(IdentityServerConfig.GetApiResources()) // Add the in memory API Resources
-                .AddInMemoryClients(IdentityServerConfig.GetClient()); // Add the in memory Clients
+                .AddInMemoryClients(IdentityServerConfig.GetClient()) // Add the in memory Clients
+                .AddTestUsers(IdentityServerConfig.GetUsers().ToList()); // Add test users
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
